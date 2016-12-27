@@ -1,0 +1,8 @@
+/Users/jordi/Projects/Astronomy/Astronomy.Test/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/jordi/Projects/Astronomy/Astronomy.Test/bin/Debug/Astronomy.Test.dll.mdb
+/Users/jordi/Projects/Astronomy/Astronomy.Test/bin/Debug/Astronomy.Test.dll
+/Users/jordi/Projects/Astronomy/Astronomy.Test/obj/Debug/Astronomy.Test.dll
+/Users/jordi/Projects/Astronomy/Astronomy.Test/obj/Debug/Astronomy.Test.dll.mdb
+/Users/jordi/Projects/Astronomy/Astronomy.Test/bin/Debug/nunit.framework.dll
+/Users/jordi/Projects/Astronomy/Astronomy.Test/bin/Debug/Astronomy.dll
+/Users/jordi/Projects/Astronomy/Astronomy.Test/bin/Debug/Astronomy.dll.mdb

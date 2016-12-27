@@ -1,0 +1,6 @@
+/Users/jordi/Projects/Astronomy/Astronomy/bin/Debug/Astronomy.dll.mdb
+/Users/jordi/Projects/Astronomy/Astronomy/bin/Debug/Astronomy.dll
+/Users/jordi/Projects/Astronomy/Astronomy/obj/Debug/Astronomy.dll
+/Users/jordi/Projects/Astronomy/Astronomy/obj/Debug/Astronomy.dll.mdb
+/Users/jordi/YardMap/Assets/Scripts/Astronomy.dll.mdb
+/Users/jordi/YardMap/Assets/Scripts/Astronomy.dll

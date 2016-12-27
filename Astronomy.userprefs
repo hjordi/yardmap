@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{73877CFD-B572-4B8B-83D2-A6DA5D5C8C38}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Astronomy/SkyView/SkyPosition.cs">
+    <Files>
+      <File FileName="Astronomy.Test/SkyView/SunLocatorTest.cs" Line="15" Column="4" />
+      <File FileName="Astronomy/SkyView/SunPositionCalculator.cs" Line="132" Column="1" />
+      <File FileName="Astronomy/SkyView/SkyPosition.cs" Line="55" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Astronomy.Test PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

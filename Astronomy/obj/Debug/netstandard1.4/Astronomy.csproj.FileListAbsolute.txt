@@ -1,0 +1,5 @@
+/Users/jordi/Projects/Astronomy/Astronomy/bin/Debug/netstandard1.4/Astronomy.dll
+/Users/jordi/Projects/Astronomy/Astronomy/bin/Debug/netstandard1.4/Astronomy.pdb
+/Users/jordi/Projects/Astronomy/Astronomy/obj/Debug/netstandard1.4/Astronomy.AssemblyInfo.cs
+/Users/jordi/Projects/Astronomy/Astronomy/obj/Debug/netstandard1.4/Astronomy.dll
+/Users/jordi/Projects/Astronomy/Astronomy/obj/Debug/netstandard1.4/Astronomy.pdb

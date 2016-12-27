@@ -1,0 +1,59 @@
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+
+  <PropertyGroup>
+	<OutputType>Library</OutputType>
+    	<TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    	<ProjectGuid>{98B539EC-D11F-413D-8A85-E435F9498810}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<OutputPath>bin\Release</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugType></DebugType>
+	<OutputPath>..\..\..\YardMap\Assets\Scripts</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+	<OutputPath>bin\Debug</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+	<OutputPath>..\..\..\YardMap\Assets\Scripts</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+	<OutputPath>bin\Release</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\YardMap\Assets\Scripts</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="**\*.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library">
+      <Version>1.6</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Sdk">
+      <Version>1.0.0-alpha-20161104-2</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SkyView\" />
+    <Folder Include="MapMath\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MapMath\Angle.cs" />
+    <Compile Include="MapMath\GeoLocationInfo.cs" />
+    <Compile Include="MapMath\Trig.cs" />
+    <Compile Include="MapMath\SphericalVector.cs" />
+    <Compile Include="SkyView\SunLocator.cs" />
+    <Compile Include="SkyView\SunPositionCalculator.cs" />
+    <Compile Include="MapMath\CartesianVector.cs" />
+    <Compile Include="SkyView\SkyPosition.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
